@@ -1,0 +1,10 @@
+{% extends 'Coder/base.html' %}
+
+{% block contenido %}
+    
+    <h1>Bienvenido</h1>
+
+    <button><a href="{% url 'profesor_list' %}">Ver Profesores</a></button>
+    <button><a href="{% url 'profesor_form' %}">Crear Profesor</a></button>
+
+{% endblock contenido %}
